@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+
+{% block content %}
+<head><link rel="stylesheet" type="text/css" href="{{ style }}" ></head>
+<form method=post enctype=multipart/form-data class="give_form">
+      <p>Разрешенные форматы: txt, pdf, png, jpg, jpeg, gif, dat, py, mp4, mp3</p>
+      <input type=file name=file>
+      <input type=submit value=Передать>
+</form>
+{% endblock %}

@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+
+{% block content %}
+<head><link rel="stylesheet" type="text/css" href="{{ style }}" ></head>
+<h1 align="center">РЕГИСТРАЦИЯ</h1>
+<p>Еще не регистрировались?</p><br>
+<a href="/" class="button">Регистрация</a>
+<form method=post enctype=multipart/form-data class="reg_form">
+    <div class="namesur">
+    <input type="text" name="login" placeholder="Введите ваш логин" required><br>
+    <input type="password" name="pass" placeholder="Введите ваш пароль" required><br>
+    </div>
+    <button type="submit" class="btn btn-primary">Войти</button>
+</form>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<img src="{{ src }}" alt="здесь должна была быть картинка, но не нашлась">
+<p>Олды вспомнят, новички пройдут мимо.</p>
+{% endblock %}
